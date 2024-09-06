@@ -1,0 +1,11 @@
+[user]
+	name = Martim Ferreira
+	email = mrt.flp@outlook.com
+[init]
+	defaultBranch = master
+[push]
+	autoSetupRemote = true
+[credential]
+	helper = cache --timeout=31536000000
+[core]
+    pager = delta

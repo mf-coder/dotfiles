@@ -1,0 +1,19 @@
+[user]
+	name = Martim Ferreira
+	email = mferreira.dev@outlook.com
+[core]
+	editor = nvim
+	pager = delta
+[delta]
+	navigate = true
+	side-by-side = true
+[interactive]
+	diffFilter = delta --color-only
+[merge]
+	conflictStyle = diff3
+[diff]
+	colorMoved = default
+[init]
+	defaultBranch = main
+[credential]
+	helper = cache --timeout=946707779

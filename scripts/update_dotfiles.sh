@@ -8,7 +8,7 @@ cp -r "$HOME/.config/i3" "$HOME/repos/dotfiles/"
 cp -r "$HOME/.config/nvim" "$HOME/repos/dotfiles/"
 cp -r "$HOME/.config/polybar" "$HOME/repos/dotfiles/"
 cp -r "$HOME/.config/rofi" "$HOME/repos/dotfiles/"
-cp -r "$HOME/scripts" "$HOME/repos/dotfiles/scripts/"
+cp -r "$HOME/scripts" "$HOME/repos/dotfiles/"
 
 mkdir -p "$HOME/repos/dotfiles/git"
 cp "$HOME/.gitconfig" "$HOME/repos/dotfiles/git/"

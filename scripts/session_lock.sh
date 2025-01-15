@@ -21,9 +21,6 @@ suspend_after_delay() {
 }
 
 suspend_after_delay &
-SUSPEND_PID=$!
-
 i3lock -i /tmp/lock.png
-kill $SUSPEND_PID 2>/dev/null
 
 rm /tmp/cur.png /tmp/blur.png /tmp/lock.png

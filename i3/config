@@ -14,7 +14,8 @@ bindsym $mod+r mode "resize"
 bindsym $mod+Shift+q exec i3-msg exit
 
 # Appearance
-default_border pixel 4
+default_border pixel 0
+client.focused #FF0000 #FF0000 #FF0000 #FF0000 #FF0000
 
 # Initial setup
 #
